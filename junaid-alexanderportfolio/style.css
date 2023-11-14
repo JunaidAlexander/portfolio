@@ -1,0 +1,93 @@
+/*
+ * Globals
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body {
+	background-color: hsl(0deg 0% 12.16%);
+}
+
+
+.banner-wrap {
+	background-image: url(bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	z-index: 1;
+}
+
+.overlay {
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	background: black;
+	opacity: 50%;
+	position: absolute;
+	top: 0;
+}
+
+.nav-masthead .nav-link {
+	padding: 0.25rem 0;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.5);
+	background-color: transparent;
+	border-bottom: 0.25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+	border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.nav-masthead .nav-link+.nav-link {
+	margin-left: 1rem;
+}
+
+.nav-masthead .active {
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+scrolling {
+	background: black;
+	opacity: 90%;
+	transition: all 0.5s;
+}
+
+.container {
+	background-color: hsl(0deg 0% 12.16%) !important;
+}
+
+.card {
+	background-color: #151515 !important;
+}
+
+.card-title,
+.card-text {
+	color: #6c63ff !important;
+}
+
+.btn {
+	background-color: #6c63ff;
+}
+
+a {
+	color: #6c63ff;
+}
+
+p {
+	color: #6c63ff
+}
+
+h1>mark {
+	color: #6c63ff;
+	background-color: hsl(0deg 0% 12.16%);
+}
